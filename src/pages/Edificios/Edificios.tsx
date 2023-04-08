@@ -1,11 +1,13 @@
+import { Mainlistcard } from '../../components/List/MainListCard/Mainlistcard'
 import MainTitle from '../../components/Texts/MainTitle'
 
-const Teste = () => {
+const Edificios = () => {
     return (
         <section>
             <MainTitle text='Edifícios' />
+            <Mainlistcard />
         </section>
     )
 }
 
-export default Teste
+export default Edificios

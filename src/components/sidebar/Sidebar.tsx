@@ -1,7 +1,7 @@
 import { Navbar } from '@mantine/core';
 import { NavLink } from 'react-router-dom';
 import { useStyles } from './Sidebar.styles'
-import { IconAppsFilled, IconTorii } from '@tabler/icons-react';
+import { IconAppsFilled, IconBuildingSkyscraper } from '@tabler/icons-react';
 
 export const Sidebar = () => {
 
@@ -13,7 +13,7 @@ export const Sidebar = () => {
             <Navbar.Section grow mt="md">
                 <ul className={classes.list}>
                     <li><NavLink to={'/'}><IconAppsFilled size="1rem" /> Dashboard</NavLink></li>
-                    <li><NavLink to={'/teste'}><IconTorii size="1rem" /> Teste</NavLink></li>
+                    <li><NavLink to={'/teste'}><IconBuildingSkyscraper size="1rem" /> Edifícios</NavLink></li>
                 </ul>
             </Navbar.Section>
             <Navbar.Section>footer</Navbar.Section>

@@ -6,7 +6,7 @@ import { CustomHeader } from './components/Header/Header';
 import { colors } from './theme/colors';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard/Dashboard';
-import Teste from './pages/teste/Teste';
+import Teste from './pages/Edificios/Edificios';
 import { useState } from 'react';
 import { ModalsProvider } from '@mantine/modals';
 import { globalstyles } from './globalstyles';
